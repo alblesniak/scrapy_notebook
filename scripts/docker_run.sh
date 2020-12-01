@@ -1,0 +1,1 @@
+docker run --env PORT=8888 -t -p 8888:8888 scrapy_notebook

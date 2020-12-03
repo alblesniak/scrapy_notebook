@@ -3,7 +3,7 @@ c = get_config()
 # Kernel config
 c.IPKernelApp.pylab = 'inline'
 # Notebook config
-c.NotebookApp.notebook_dir = 'notebooks'
+c.NotebookApp.notebook_dir = '/src'
 c.NotebookApp.allow_origin = u'scrapy-notebook.herokuapp.com/'
 c.NotebookApp.ip = '*'
 c.NotebookApp.allow_remote_access = True

@@ -1,1 +1,1 @@
-docker build -t scrapy_notebook -f Dockerfile .
+docker build -t scrapy-notebook -f Dockerfile .
